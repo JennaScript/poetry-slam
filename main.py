@@ -59,27 +59,27 @@ while True:
     if choice == '1':
         lines_printed_normally(add_line_number(get_file_lines('poem.txt')))
         print('\n')
-        input("Press Enter to choose again.")
+        input("Press Enter to select again.")
         os.system('clear')
     elif choice == '2':
         lines_printed_backwards(add_line_number(get_file_lines('poem.txt')))
         print('\n')
-        input("Press Enter to choose again.")
+        input("Press Enter to select again.")
         os.system('clear')
     elif choice == '3':
         lines_printed_random(add_line_number(get_file_lines('poem.txt')))
         print('\n')
-        input("Press Enter to choose again.")
+        input("Press Enter to select again.")
         os.system('clear')
     elif choice == '4':
         lines_printed_custom('short', get_file_lines('poem.txt'))
         print('\n')
-        input("Press Enter to choose again.")
+        input("Press Enter to select again.")
         os.system('clear')
     elif choice == '5':
         lines_printed_custom('long', get_file_lines('poem.txt'))
         print('\n')
-        input("Press Enter to choose again.")
+        input("Press Enter to select again.")
         os.system('clear')
     elif choice.lower() == 'done':
         break
