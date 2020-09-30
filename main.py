@@ -12,9 +12,9 @@ print("Please make a selection below: \n")
 
 # Creation of function to print out the menu of options to choose from
 def get_user_input():
-    print("1. Read the poem as it was written. \n")
+    print("1. Read the poem as it was originally written. \n")
     print("2. Read the poem written backwards. \n")
-    print("3. Read the poem in a randomly written order. \n")
+    print("3. Read the poem in random written order. \n")
     print("4. Read the poem lines from shortest to longest. \n")
     print("5. Read the poem lines from longest to shortest. \n")
     return input("Choose a number or type 'done' to exit program. \n")
