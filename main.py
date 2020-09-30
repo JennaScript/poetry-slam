@@ -17,7 +17,7 @@ def get_user_input():
     print("3. Read the poem in random written order. \n")
     print("4. Read the poem lines from shortest to longest. \n")
     print("5. Read the poem lines from longest to shortest. \n")
-    return input("Choose a number or type 'done' to exit program. \n")
+    return input("Choose a number from the list or type 'done' to exit program. \n")
 
 # Creation of get_file_lines() function
 def get_file_lines(filename):
